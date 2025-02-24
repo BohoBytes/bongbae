@@ -1,0 +1,49 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "bong-bae",
+          "appId": "1:208649506339:android:2165c31587573811a3eb96",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "ios": {
+        "default": {
+          "projectId": "bong-bae",
+          "appId": "1:208649506339:ios:be2ab6756c4f1a3fa3eb96",
+          "uploadDebugSymbols": false,
+          "fileOutput": "ios/Runner/GoogleService-Info.plist"
+        }
+      },
+      "macos": {
+        "default": {
+          "projectId": "bong-bae",
+          "appId": "1:208649506339:ios:be2ab6756c4f1a3fa3eb96",
+          "uploadDebugSymbols": false,
+          "fileOutput": "macos/Runner/GoogleService-Info.plist"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "bong-bae",
+          "configurations": {
+            "android": "1:208649506339:android:2165c31587573811a3eb96",
+            "ios": "1:208649506339:ios:be2ab6756c4f1a3fa3eb96",
+            "macos": "1:208649506339:ios:be2ab6756c4f1a3fa3eb96",
+            "web": "1:208649506339:web:75212330db48dfaaa3eb96",
+            "windows": "1:208649506339:web:2cc521c4c4c51d7aa3eb96"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
