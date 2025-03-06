@@ -1,32 +1,13 @@
 {
   "project_info": {
-    "project_number": "208649506339",
-    "project_id": "bong-bae",
-    "storage_bucket": "bong-bae.firebasestorage.app"
+    "project_number": "452611860027",
+    "project_id": "bongbaeboho",
+    "storage_bucket": "bongbaeboho.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:208649506339:android:512609053c5e7d35a3eb96",
-        "android_client_info": {
-          "package_name": "com.bohobytes.bongbae"
-        }
-      },
-      "oauth_client": [],
-      "api_key": [
-        {
-          "current_key": "AIzaSyDOGoIAEvkunohIKrk6k1QTOndbPWQmNDo"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": []
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:208649506339:android:2165c31587573811a3eb96",
+        "mobilesdk_app_id": "1:452611860027:android:6d89120986f1de194c1e1e",
         "android_client_info": {
           "package_name": "com.example.bongbae"
         }
@@ -34,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyDOGoIAEvkunohIKrk6k1QTOndbPWQmNDo"
+          "current_key": "AIzaSyAp4jZnsEjaaX29_XoAgm4XRGveKjGnxKs"
         }
       ],
       "services": {

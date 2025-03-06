@@ -3,17 +3,17 @@
 <plist version="1.0">
 <dict>
 	<key>API_KEY</key>
-	<string>AIzaSyCmWWb4cqA13Up-NSQLKeMQU9fMS0_Sf1w</string>
+	<string>AIzaSyAeqXML-jaZwT1Hew6eOMyPJxrXk7LTiCU</string>
 	<key>GCM_SENDER_ID</key>
-	<string>208649506339</string>
+	<string>452611860027</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
 	<string>com.example.bongbae</string>
 	<key>PROJECT_ID</key>
-	<string>bong-bae</string>
+	<string>bongbaeboho</string>
 	<key>STORAGE_BUCKET</key>
-	<string>bong-bae.firebasestorage.app</string>
+	<string>bongbaeboho.firebasestorage.app</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -25,6 +25,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:208649506339:ios:be2ab6756c4f1a3fa3eb96</string>
+	<string>1:452611860027:ios:01ad6861ad9edc354c1e1e</string>
 </dict>
 </plist>

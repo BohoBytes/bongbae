@@ -3,47 +3,49 @@
     "platforms": {
       "android": {
         "default": {
-          "projectId": "bong-bae",
-          "appId": "1:208649506339:android:2165c31587573811a3eb96",
+          "projectId": "bongbaeboho",
+          "appId": "1:452611860027:android:6d89120986f1de194c1e1e",
           "fileOutput": "android/app/google-services.json"
         }
       },
       "ios": {
         "default": {
-          "projectId": "bong-bae",
-          "appId": "1:208649506339:ios:be2ab6756c4f1a3fa3eb96",
+          "projectId": "bongbaeboho",
+          "appId": "1:452611860027:ios:01ad6861ad9edc354c1e1e",
           "uploadDebugSymbols": false,
           "fileOutput": "ios/Runner/GoogleService-Info.plist"
         }
       },
       "macos": {
         "default": {
-          "projectId": "bong-bae",
-          "appId": "1:208649506339:ios:be2ab6756c4f1a3fa3eb96",
+          "projectId": "bongbaeboho",
+          "appId": "1:452611860027:ios:01ad6861ad9edc354c1e1e",
           "uploadDebugSymbols": false,
           "fileOutput": "macos/Runner/GoogleService-Info.plist"
         }
       },
       "dart": {
         "lib/firebase_options.dart": {
-          "projectId": "bong-bae",
+          "projectId": "bongbaeboho",
           "configurations": {
-            "android": "1:208649506339:android:2165c31587573811a3eb96",
-            "ios": "1:208649506339:ios:be2ab6756c4f1a3fa3eb96",
-            "macos": "1:208649506339:ios:be2ab6756c4f1a3fa3eb96",
-            "web": "1:208649506339:web:75212330db48dfaaa3eb96",
-            "windows": "1:208649506339:web:2cc521c4c4c51d7aa3eb96"
+            "android": "1:452611860027:android:6d89120986f1de194c1e1e",
+            "ios": "1:452611860027:ios:01ad6861ad9edc354c1e1e",
+            "macos": "1:452611860027:ios:01ad6861ad9edc354c1e1e",
+            "web": "1:452611860027:web:1c94a20a0392680c4c1e1e",
+            "windows": "1:452611860027:web:b2720badc014db194c1e1e"
           }
         }
       }
     }
   },
   "hosting": {
-    "public": "public",
-    "ignore": [
-      "firebase.json",
-      "**/.*",
-      "**/node_modules/**"
+    "public": "build/web",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
     ]
   }
 }

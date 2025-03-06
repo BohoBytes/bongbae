@@ -41,48 +41,49 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyBPfbydpHhP-vnfj--L1jzJyEqLFb1-Tx8',
-    appId: '1:208649506339:web:75212330db48dfaaa3eb96',
-    messagingSenderId: '208649506339',
-    projectId: 'bong-bae',
-    authDomain: 'bong-bae.firebaseapp.com',
-    storageBucket: 'bong-bae.firebasestorage.app',
-    measurementId: 'G-NZLXX2ZR4K',
+    apiKey: 'AIzaSyC6KxTNvTSn0d6AmL2_KWTguGu7mjJNUwE',
+    appId: '1:452611860027:web:1c94a20a0392680c4c1e1e',
+    messagingSenderId: '452611860027',
+    projectId: 'bongbaeboho',
+    authDomain: 'bongbaeboho.firebaseapp.com',
+    storageBucket: 'bongbaeboho.firebasestorage.app',
+    measurementId: 'G-BGN5XMEGGN',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyDOGoIAEvkunohIKrk6k1QTOndbPWQmNDo',
-    appId: '1:208649506339:android:2165c31587573811a3eb96',
-    messagingSenderId: '208649506339',
-    projectId: 'bong-bae',
-    storageBucket: 'bong-bae.firebasestorage.app',
+    apiKey: 'AIzaSyAp4jZnsEjaaX29_XoAgm4XRGveKjGnxKs',
+    appId: '1:452611860027:android:6d89120986f1de194c1e1e',
+    messagingSenderId: '452611860027',
+    projectId: 'bongbaeboho',
+    storageBucket: 'bongbaeboho.firebasestorage.app',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyCmWWb4cqA13Up-NSQLKeMQU9fMS0_Sf1w',
-    appId: '1:208649506339:ios:be2ab6756c4f1a3fa3eb96',
-    messagingSenderId: '208649506339',
-    projectId: 'bong-bae',
-    storageBucket: 'bong-bae.firebasestorage.app',
+    apiKey: 'AIzaSyAeqXML-jaZwT1Hew6eOMyPJxrXk7LTiCU',
+    appId: '1:452611860027:ios:01ad6861ad9edc354c1e1e',
+    messagingSenderId: '452611860027',
+    projectId: 'bongbaeboho',
+    storageBucket: 'bongbaeboho.firebasestorage.app',
     iosBundleId: 'com.example.bongbae',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyCmWWb4cqA13Up-NSQLKeMQU9fMS0_Sf1w',
-    appId: '1:208649506339:ios:be2ab6756c4f1a3fa3eb96',
-    messagingSenderId: '208649506339',
-    projectId: 'bong-bae',
-    storageBucket: 'bong-bae.firebasestorage.app',
+    apiKey: 'AIzaSyAeqXML-jaZwT1Hew6eOMyPJxrXk7LTiCU',
+    appId: '1:452611860027:ios:01ad6861ad9edc354c1e1e',
+    messagingSenderId: '452611860027',
+    projectId: 'bongbaeboho',
+    storageBucket: 'bongbaeboho.firebasestorage.app',
     iosBundleId: 'com.example.bongbae',
   );
 
   static const FirebaseOptions windows = FirebaseOptions(
-    apiKey: 'AIzaSyBPfbydpHhP-vnfj--L1jzJyEqLFb1-Tx8',
-    appId: '1:208649506339:web:2cc521c4c4c51d7aa3eb96',
-    messagingSenderId: '208649506339',
-    projectId: 'bong-bae',
-    authDomain: 'bong-bae.firebaseapp.com',
-    storageBucket: 'bong-bae.firebasestorage.app',
-    measurementId: 'G-1DFJYQ4PB9',
+    apiKey: 'AIzaSyC6KxTNvTSn0d6AmL2_KWTguGu7mjJNUwE',
+    appId: '1:452611860027:web:b2720badc014db194c1e1e',
+    messagingSenderId: '452611860027',
+    projectId: 'bongbaeboho',
+    authDomain: 'bongbaeboho.firebaseapp.com',
+    storageBucket: 'bongbaeboho.firebasestorage.app',
+    measurementId: 'G-HVSHPSCQCG',
   );
+
 }

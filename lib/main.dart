@@ -11,6 +11,8 @@ void main() async {
 }
 
 class BongbaeApp extends StatelessWidget {
+  const BongbaeApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
