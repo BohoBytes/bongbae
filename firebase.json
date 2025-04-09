@@ -4,48 +4,28 @@
       "android": {
         "default": {
           "projectId": "bongbaeboho",
-          "appId": "1:452611860027:android:6d89120986f1de194c1e1e",
+          "appId": "1:452611860027:android:9156a2a64b5257574c1e1e",
           "fileOutput": "android/app/google-services.json"
         }
       },
       "ios": {
         "default": {
           "projectId": "bongbaeboho",
-          "appId": "1:452611860027:ios:01ad6861ad9edc354c1e1e",
+          "appId": "1:452611860027:ios:066089bbf8658a9a4c1e1e",
           "uploadDebugSymbols": false,
           "fileOutput": "ios/Runner/GoogleService-Info.plist"
-        }
-      },
-      "macos": {
-        "default": {
-          "projectId": "bongbaeboho",
-          "appId": "1:452611860027:ios:01ad6861ad9edc354c1e1e",
-          "uploadDebugSymbols": false,
-          "fileOutput": "macos/Runner/GoogleService-Info.plist"
         }
       },
       "dart": {
         "lib/firebase_options.dart": {
           "projectId": "bongbaeboho",
           "configurations": {
-            "android": "1:452611860027:android:6d89120986f1de194c1e1e",
-            "ios": "1:452611860027:ios:01ad6861ad9edc354c1e1e",
-            "macos": "1:452611860027:ios:01ad6861ad9edc354c1e1e",
-            "web": "1:452611860027:web:1c94a20a0392680c4c1e1e",
-            "windows": "1:452611860027:web:b2720badc014db194c1e1e"
+            "android": "1:452611860027:android:9156a2a64b5257574c1e1e",
+            "ios": "1:452611860027:ios:066089bbf8658a9a4c1e1e",
+            "web": "1:452611860027:web:1c94a20a0392680c4c1e1e"
           }
         }
       }
     }
-  },
-  "hosting": {
-    "public": "build/web",
-    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
-    "rewrites": [
-      {
-        "source": "**",
-        "destination": "/index.html"
-      }
-    ]
   }
 }

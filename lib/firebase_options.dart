@@ -25,9 +25,15 @@ class DefaultFirebaseOptions {
       case TargetPlatform.iOS:
         return ios;
       case TargetPlatform.macOS:
-        return macos;
+        throw UnsupportedError(
+          'DefaultFirebaseOptions have not been configured for macos - '
+          'you can reconfigure this by running the FlutterFire CLI again.',
+        );
       case TargetPlatform.windows:
-        return windows;
+        throw UnsupportedError(
+          'DefaultFirebaseOptions have not been configured for windows - '
+          'you can reconfigure this by running the FlutterFire CLI again.',
+        );
       case TargetPlatform.linux:
         throw UnsupportedError(
           'DefaultFirebaseOptions have not been configured for linux - '
@@ -52,7 +58,7 @@ class DefaultFirebaseOptions {
 
   static const FirebaseOptions android = FirebaseOptions(
     apiKey: 'AIzaSyAp4jZnsEjaaX29_XoAgm4XRGveKjGnxKs',
-    appId: '1:452611860027:android:6d89120986f1de194c1e1e',
+    appId: '1:452611860027:android:9156a2a64b5257574c1e1e',
     messagingSenderId: '452611860027',
     projectId: 'bongbaeboho',
     storageBucket: 'bongbaeboho.firebasestorage.app',
@@ -60,30 +66,10 @@ class DefaultFirebaseOptions {
 
   static const FirebaseOptions ios = FirebaseOptions(
     apiKey: 'AIzaSyAeqXML-jaZwT1Hew6eOMyPJxrXk7LTiCU',
-    appId: '1:452611860027:ios:01ad6861ad9edc354c1e1e',
+    appId: '1:452611860027:ios:066089bbf8658a9a4c1e1e',
     messagingSenderId: '452611860027',
     projectId: 'bongbaeboho',
     storageBucket: 'bongbaeboho.firebasestorage.app',
-    iosBundleId: 'com.example.bongbae',
+    iosBundleId: 'com.example.bongBae',
   );
-
-  static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyAeqXML-jaZwT1Hew6eOMyPJxrXk7LTiCU',
-    appId: '1:452611860027:ios:01ad6861ad9edc354c1e1e',
-    messagingSenderId: '452611860027',
-    projectId: 'bongbaeboho',
-    storageBucket: 'bongbaeboho.firebasestorage.app',
-    iosBundleId: 'com.example.bongbae',
-  );
-
-  static const FirebaseOptions windows = FirebaseOptions(
-    apiKey: 'AIzaSyC6KxTNvTSn0d6AmL2_KWTguGu7mjJNUwE',
-    appId: '1:452611860027:web:b2720badc014db194c1e1e',
-    messagingSenderId: '452611860027',
-    projectId: 'bongbaeboho',
-    authDomain: 'bongbaeboho.firebaseapp.com',
-    storageBucket: 'bongbaeboho.firebasestorage.app',
-    measurementId: 'G-HVSHPSCQCG',
-  );
-
 }
