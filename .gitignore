@@ -1,34 +1,63 @@
-**/dgph
-*.mode1v3
-*.mode2v3
-*.moved-aside
-*.pbxuser
-*.perspectivev3
-**/*sync/
-.sconsign.dblite
-.tags*
-**/.vagrant/
-**/DerivedData/
-Icon?
-**/Pods/
-**/.symlinks/
-profile
-xcuserdata
-**/.generated/
-Flutter/App.framework
-Flutter/Flutter.framework
-Flutter/Flutter.podspec
-Flutter/Generated.xcconfig
-Flutter/ephemeral/
-Flutter/app.flx
-Flutter/app.zip
-Flutter/flutter_assets/
-Flutter/flutter_export_environment.sh
-ServiceDefinitions.json
-Runner/GeneratedPluginRegistrant.*
+# Generated files and directories by Flutter/Dart.
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+ios/Flutter/App.framework
+ios/Flutter/Flutter.framework
+ios/Flutter/Generated.xcconfig
+ios/Flutter/flutter_export_environment.sh
+ios/Flutter/GeneratedPluginRegistrant.*
+android/app/build/
+android/.gradle/
+# Ephemeral Generated xcconfig files (usually safe to ignore)
+# If you modify these for specific needs, you might remove them from ignore
+ios/Flutter/Debug.xcconfig
+ios/Flutter/Release.xcconfig
+# ios/Flutter/Profile.xcconfig # (If it existed)
 
-# Exceptions to above rules.
-!default.mode1v3
-!default.mode2v3
-!default.pbxuser
-!default.perspectivev3
+# IDE specific files (adjust based on your IDE)
+.idea/ # IntelliJ / Android Studio
+*.iml # IntelliJ / Android Studio
+.vscode/ # Visual Studio Code (can sometimes commit .vscode/settings.json if shared settings are desired)
+
+# Build artifacts and configuration specific to platforms.
+# iOS
+ios/Pods/
+ios/DerivedData/
+ios/.symlinks/
+# ios/Runner.xcworkspace/xcuserdata/ # User specific Xcode data (often ignored)
+# Podfile.lock (Typically COMMITTED, but can be ignored in some library scenarios)
+
+# Android
+android/key.properties # Contains signing key passwords - NEVER commit!
+*.jks # Keystore files - NEVER commit!
+*.keystore # Keystore files - NEVER commit!
+android/local.properties # Contains SDK path, user specific
+# *.apk # Android build output
+# *.aab # Android build output
+
+# Web
+web/build/
+
+# MacOS specific files.
+.DS_Store
+*/.DS_Store
+
+# Windows specific files.
+Thumbs.db
+
+# Log files
+*.log
+logs/
+
+# Generated Firebase options (usually safe, but double-check for sensitive info if manually edited)
+# If you require contributors to generate their own, uncomment the line below
+# lib/firebase_options.dart
+
+# Other generated or temporary files
+*.swp
+*~
